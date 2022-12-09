@@ -12,7 +12,7 @@ int main(void)
 	while (character <= 'z')
 	{
 		if (character != 'q' && character != 'e')
-			putchar(character)
+			putchar(character);
 	}
 	putchar('\n');
 	return (0);
