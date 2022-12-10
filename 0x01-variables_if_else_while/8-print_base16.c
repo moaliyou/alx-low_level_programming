@@ -6,21 +6,21 @@
  */
 int main(void)
 {
-char characters;
-char numbers;
+	char ch;
+	char n;
 
-numbers = 48;
-while (numbers < 58)
-{
-    putchar(numbers);
-    numbers++;
-}
-characters = 97;
-while (characters < 103)
-{
-    putchar(characters);
-    characters++;
-}    
-putchar('\n');
-return (0);
+	ch = 97;
+	n = 48;
+	while (n < 58)
+	{
+		putchar(n);
+		n++;
+	}
+	while (ch < 103)
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
+	return (0);
 }
